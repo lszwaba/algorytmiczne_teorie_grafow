@@ -102,7 +102,8 @@ def show_results(deg_V):
                 max = deg_V[key]
         print('\nStopien grafu wynosi ' + str(max))
         break
-    print('Nie wprowadzono zadnych wierzcholkow')
+    else:
+        print('Nie wprowadzono zadnych wierzcholkow')
 
 
 if __name__ == '__main__':
